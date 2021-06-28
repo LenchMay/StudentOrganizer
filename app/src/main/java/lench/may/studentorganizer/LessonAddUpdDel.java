@@ -87,6 +87,7 @@ public class LessonAddUpdDel extends AppCompatActivity {
         // Применяем адаптер к элементу spinner
         chooseStartTimeM.setAdapter(adapterMin);
         chooseEndTimeM.setAdapter(adapterMin);
+        //fjjfjfj
 
         dbHelper = new DBHelper(this);
         db = dbHelper.getWritableDatabase();
