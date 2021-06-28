@@ -119,7 +119,7 @@ public class LessonAddUpdDel extends AppCompatActivity {
             delButton.setVisibility(View.GONE);
         }
     }
-    //fndsk
+    //fn
 
     private int getIndex(Spinner spinner, String myString){
         for (int i=0;i<spinner.getCount();i++){
