@@ -68,7 +68,7 @@ public class Subjects extends AppCompatActivity {
             }
         });
     }
-
+//fndk
     public void onResume() {
         super.onResume();
         db = databaseHelper.getReadableDatabase();
