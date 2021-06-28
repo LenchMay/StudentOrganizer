@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/calendBtn"
+        android:title="Расписание"
+        android:icon="@drawable/ic_calendar"/>
+    <item
+        android:id="@+id/subjBtn"
+        android:title="Занятия"
+        android:icon="@drawable/ic_subjects"/>
+    <item
+        android:id="@+id/tasksBtn"
+        android:title="Задачи"
+        android:icon="@drawable/ic_tasks"/>
+    <item
+        android:id="@+id/helpBtn"
+        android:title="Помощь"
+        android:icon="@drawable/ic_help"/>
+</menu>
