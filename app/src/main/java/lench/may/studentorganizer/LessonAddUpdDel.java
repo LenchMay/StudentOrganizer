@@ -88,6 +88,7 @@ public class LessonAddUpdDel extends AppCompatActivity {
         chooseStartTimeM.setAdapter(adapterMin);
         chooseEndTimeM.setAdapter(adapterMin);
         //fjjfjfj
+        //dfjdsk
 
         dbHelper = new DBHelper(this);
         db = dbHelper.getWritableDatabase();
@@ -118,6 +119,7 @@ public class LessonAddUpdDel extends AppCompatActivity {
             delButton.setVisibility(View.GONE);
         }
     }
+    //fndsk
 
     private int getIndex(Spinner spinner, String myString){
         for (int i=0;i<spinner.getCount();i++){
